@@ -2,9 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>ImageProcessing</title>
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/imageprocessing.css">
 </head>
 <body>
+<div class="container">
+    <h1>
+        Image Tagging and Colors
+    </h1>
+    <div class="card">
 
+        <div class="card-body">
+            <input class="form-control" data-url-selector="url_image" type="url" placeholder="copy/paste Image URL">
+            <div class="row justify-content-md-center">
+                <div class="col-auto">
+                    <img src="images/300x300.png" data-presenter-selector="presenter" >
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <h4 align="center">
+                        tags
+                    </h4>
+                    <div data-result-selector="tags">
+
+
+
+                    </div>
+                </div>
+                <div class="col-md-auto" data-spinner="spinner">
+
+
+                </div>
+                <div class="col-sm" >
+                    <h4 align="center">
+                        colors
+                    </h4>
+                    <div data-result-selector="colors">
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+<script src="scripts/jquery-3.3.1.min.js"></script>
+<script src="scripts/imagepresenter.js"></script>
+<script src="scripts/spinner.js"></script>
+<script src="scripts/imageprovider.js"></script>
+<script src="scripts/imageprocessor.js"></script>
+<script src="scripts/imageprocessor_mimics.js   "></script>
+<script src="scripts/tags.js"></script>
+<script src="scripts/colors.js"></script>
+<script src="scripts/main.js"></script>
 </body>
 </html>

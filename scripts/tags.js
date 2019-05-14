@@ -41,9 +41,3 @@
     }
 
 )();
-// <div class="row justify-content-center">
-//     <label> tree</label>
-//     </div>
-//     <div class="row justify-content-center">
-//     <label> watter</label>
-//     </div>
